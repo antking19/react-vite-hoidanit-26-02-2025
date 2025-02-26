@@ -1,9 +1,14 @@
-const FakeComponent = () => {
-    return <div>Fake Component</div>;
-};
+import "./style.css";
 
 const MyComponent = () => {
-    return <div>eric & hoidanit update</div>;
+    return (
+        <>
+            <div>eric & hoidanit update</div>
+            <div className="child" style={{ borderRadius: "10px" }}>
+                Child
+            </div>
+        </>
+    );
 };
 
 export default MyComponent;
