@@ -10,6 +10,13 @@
     color: orange;
 }
 
+.todo-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .todo-new input {
     padding: 10px;
     outline: none;
