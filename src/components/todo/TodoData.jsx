@@ -1,4 +1,4 @@
-const TodoData = (prop) => {
+const TodoData = (props) => {
     const { name, age, data } = props;
     // const name = props.name;
     // const age = props.age;
